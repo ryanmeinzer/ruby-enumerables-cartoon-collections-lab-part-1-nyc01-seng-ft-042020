@@ -3,8 +3,7 @@ def greet_characters(array)
   #
   # Print a custom greeting for each element
   array.each do |element|
-    print element
-    element += 1
+    print "Hola, I'm the #{element}."
   end
 end
 
